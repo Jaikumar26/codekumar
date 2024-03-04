@@ -1,0 +1,223 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Manrope", sans-serif;
+    box-sizing: border-box;
+}
+.header{
+    background-color: black;
+    display: flex;
+   width: 100%;
+   height: 40px;
+   background-color: black;
+   justify-content: space-between;
+   margin-top: 20px;
+   align-items: center;
+}
+nav{
+    /* margin-top: 5px; */
+    display: flex;
+   width: 100%;
+    /*  height: 700px; */
+    background-color: black;
+    justify-content: space-evenly;
+}
+/*for log*/
+#Icon{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: x-large;
+    padding-left: 30px;
+    /* gap: 10px; */
+}
+/* For a nav bar*/
+li{
+    color: white;
+    list-style: none;
+}
+.nav{
+    margin-left: 100px;
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+.log_in{
+    display: flex;
+    width: 20%;
+    justify-content:flex-start;
+    /*margin-right: 40px;*/
+    gap: 1px;
+}
+.sign{
+    border-radius: 6px;
+    padding: 5px 25px;
+    font-size: 15px;
+    font-weight:bolder;
+}
+li:hover{
+    background-color: gray;
+}
+/* main */
+.mainbg{
+  background-image: url(https://www.uber-assets.com/image/upload/v1555699210/assets/63/cdb12d-a0cd-49fa-a6c0-6184a84d99ea/original/About_us_600.jpg);
+  width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: white;
+}
+/* .mainbg img{
+    padding-left: 300px;
+} */
+.mainbg h3{
+   font-size: 30px;
+   padding-left: 200px;
+   padding-top: 300px;
+   color: rgb(255, 255, 255)
+}
+.abu1{
+    margin-left: 300px; 
+}
+.abu1 h2{
+    padding-right: 20px;
+}
+.abu1 p{
+    padding-top: 50px;
+    padding-right: 200px;
+}
+.CEO{
+    background-image: url(https://www.uber-assets.com/image/upload/v1590112350/assets/ba/e2d6c0-0335-4c4c-ad45-04097c24e819/original/dara-desktop.jpg);
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: white;
+}
+.CEO h2{
+    width: 80%;
+    padding-top: 70px;
+    padding-right: 400px;
+    padding-left: 200px;
+    font-size: 40px;
+}
+
+.CEO p{
+    padding-right: 900px;
+    padding-left: 200px;
+    padding-top: 20px;
+    font-size: 16px;
+}
+.CEO button{
+    margin-left: 200px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    border: none;
+    padding: 10px 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.abu2{
+    width: 80%;
+    margin-top: 90px;
+    margin-left: 90px;
+    display: flex;
+    gap: 30px;
+}
+.abu2 p{
+    padding-right: 90px;
+}
+.d2{
+    padding-top: 40px;
+}
+.abu3{
+    margin-left: 200px;
+    margin-top: 40px;
+    width: 70%;
+    display: flex;
+    margin-bottom: 40px;
+    
+}
+.art{
+    width: 1200px;
+    height: 100px;
+    padding-bottom: 50px;
+}
+.abu3 h2{
+    font-size: 40px;
+}
+.abu3 p{
+    margin-top: 20px;
+    padding-right: 100px;
+}
+.two{
+    margin-top: 30px;
+    width: 100%;
+}
+.two h2{
+    margin-left: 20px;
+}
+.com1{
+    display: flex;
+    margin-left: 20px;
+}
+.com1 img{
+    margin-left: 70px ;
+}
+
+.com1 h2{
+    margin-left: 100px;
+}
+
+.com1 p{
+    padding-right: 100px;
+    padding-left: 20px;
+    color: gray;
+}
+#p1{
+    padding-left: 40px;
+}
+.three img{
+    padding-right: 90px;
+}
+footer{
+    width: 100%;
+    height: 800px;
+    background-color: black;
+    color: white;
+}
+h3{
+    color: white;
+    font-size: 30px     ;
+    margin-left: 100px;
+    padding-top: 50px;
+
+}
+footer p{
+    margin-left: 100px;
+}
+
+footer h4{
+    margin-left: 100px;
+}
+.footbar{
+    display: flex;
+}
+.footicon{
+    display: flex;
+    margin-left: 100px;
+    justify-content: space-around;
+}
+.plysto{
+    margin-left: 100px;
+}
