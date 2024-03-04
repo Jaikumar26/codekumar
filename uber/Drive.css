@@ -171,6 +171,10 @@ footer h4{
 }
 .plysto{
     margin-left: 100px;
+    margin-right: 10px;
+}
+footer p:hover{
+    color: gray;
 }
 a{
     text-decoration: none;
